@@ -10,7 +10,7 @@ export const Router = () => {
     <>
       <Routes location={background || location}>
         <Route element={<BaseLayout />}>
-          <Route path="/" element={<div></div>} />
+          <Route path="/" element={<div>asd</div>} />
         </Route>
       </Routes>
     </>
