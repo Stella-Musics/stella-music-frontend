@@ -16,10 +16,12 @@ import { Title3 } from "@/shared/ui/typo";
 import { SideBarMenuItem } from "./sidebar-menu";
 import { useAppDispatch, useAppSelector } from "@/shared/model";
 import { tabDidSelect, selectedSidebarTabSelector } from "@/entities/sidebar";
+import { useNavigate } from "react-router-dom";
 
 export const SideBarLayout = () => {
   const dispatch = useAppDispatch();
   const selectedTab = useAppSelector(selectedSidebarTabSelector);
+  const navigate = useNavigate();
 
   return (
     <SideBar>
@@ -28,6 +30,7 @@ export const SideBarLayout = () => {
           isSelected={selectedTab === "home"}
           onClick={() => {
             dispatch(tabDidSelect("home"));
+            navigate("/");
           }}
           selected={
             <SideBarMenuWrapper isSelected={selectedTab === "home"}>
@@ -46,6 +49,7 @@ export const SideBarLayout = () => {
           isSelected={selectedTab === "music"}
           onClick={() => {
             dispatch(tabDidSelect("music"));
+            navigate("/music");
           }}
           selected={
             <SideBarMenuWrapper isSelected={selectedTab === "music"}>
@@ -64,6 +68,7 @@ export const SideBarLayout = () => {
           isSelected={selectedTab === "artist"}
           onClick={() => {
             dispatch(tabDidSelect("artist"));
+            navigate("/artist");
           }}
           selected={
             <SideBarMenuWrapper isSelected={selectedTab === "artist"}>
@@ -82,6 +87,7 @@ export const SideBarLayout = () => {
           isSelected={selectedTab === "storage"}
           onClick={() => {
             dispatch(tabDidSelect("storage"));
+            navigate("/storage");
           }}
           selected={
             <SideBarMenuWrapper isSelected={selectedTab === "storage"}>
