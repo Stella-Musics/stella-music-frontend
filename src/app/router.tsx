@@ -1,7 +1,7 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import { LocationState } from "@/shared/model";
 import { BaseLayout } from "./layout";
-import { HomePage } from "@/pages/home/ui/Page";
+import { HomePage } from "@/pages/home";
 import { MusicPage } from "@/pages/music";
 import { ArtistPage } from "@/pages/artist";
 import { StoragePage } from "@/pages/storage";
