@@ -1,4 +1,4 @@
-import { Title2, Title3 } from "@/shared/ui/typo";
+import { Title2, SubTitle1, Title3 } from "@/shared/ui/typo";
 import {
   DefaultWrapper,
   MusicCardContainer,
@@ -15,16 +15,16 @@ export const MusicCard = () => {
         <TemporaryMusicThumbnail />
         <MusicTitleContainer>
           <Title2>제목</Title2>
-          <Title3 color={theme.color.onBackgroundVariant}>
+          <SubTitle1 color={theme.color.onBackgroundVariant}>
             아티스트 이름 | 3:14
-          </Title3>
+          </SubTitle1>
         </MusicTitleContainer>
       </TitleWrapper>
       <DefaultWrapper>
-        <Title2>2024.03.16.</Title2>
+        <Title3>2024.03.16.</Title3>
       </DefaultWrapper>
       <DefaultWrapper>
-        <Title2>1,000,000 회</Title2>
+        <Title3>1,000,000 회</Title3>
       </DefaultWrapper>
     </MusicCardContainer>
   );

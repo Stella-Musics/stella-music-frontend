@@ -27,8 +27,8 @@ export const DefaultWrapper = styled.div`
 `;
 
 export const TemporaryMusicThumbnail = styled.div`
-  width: 143px;
-  height: 80px;
+  width: 120px;
+  aspect-ratio: 1.78; // 143 / 80
   background-color: ${({ theme }) => theme.color.onBackgroundVariant};
-  border-radius: 16px;
+  border-radius: 8px;
 `;
