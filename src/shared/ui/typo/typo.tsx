@@ -45,6 +45,13 @@ export const Title3 = styled.h1<{ color?: string }>`
   color: ${({ color }) => color || "#FFFFFF"};
 `;
 
+export const SubTitle1 = styled.h1<{ color?: string }>`
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Pretendard";
+  color: ${({ color }) => color || "#FFFFFF"};
+`;
+
 export const Body1 = styled.h1<{ color?: string }>`
   font-size: 16px;
   font-weight: 400;

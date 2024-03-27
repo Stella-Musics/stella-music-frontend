@@ -1,3 +1,5 @@
+import { MusicList } from "@/widgets/music-list";
+
 export const MusicPage = () => {
-  return <div>Music</div>;
+  return <MusicList />;
 };
