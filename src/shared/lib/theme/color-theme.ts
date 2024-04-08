@@ -5,6 +5,10 @@ export const color = {
   onBackgroundVariant: "#B3B3B3",
   black: "#000000",
   white: "#FFFFFF",
+  point: {
+    red: "#FF0000",
+    blue: "#0066FF",
+  },
 };
 
 export type ColorType = typeof color;
