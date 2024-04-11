@@ -4,7 +4,7 @@ export const MusicCardContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 20px 40px;
+  padding: 16px 24px;
   border-top-width: 1px;
   border-top-color: ${({ theme }) => theme.color.onBackgroundVariant};
   border-top-style: solid;
@@ -19,7 +19,11 @@ export const TitleWrapper = styled.div`
   width: 60%;
 `;
 
-export const MusicTitleContainer = styled.div``;
+export const MusicTitleContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+`;
 
 export const DefaultWrapper = styled.div`
   width: 20%;
@@ -27,7 +31,7 @@ export const DefaultWrapper = styled.div`
 `;
 
 export const TemporaryMusicThumbnail = styled.div`
-  width: 120px;
+  width: 100px;
   aspect-ratio: 1.78; // 143 / 80
   background-color: ${({ theme }) => theme.color.onBackgroundVariant};
   border-radius: 8px;
