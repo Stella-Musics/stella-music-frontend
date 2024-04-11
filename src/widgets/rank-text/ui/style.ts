@@ -9,7 +9,7 @@ export const RankChangesContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 55px;
+  width: 40px;
 `;
 
 export const UpTriangle = styled.div`
