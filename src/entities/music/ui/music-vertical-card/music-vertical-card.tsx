@@ -8,7 +8,7 @@ import {
 } from "./style";
 import { theme } from "@/shared/lib/theme/theme";
 
-export const MusicCard = () => {
+export const MusicVerticalCard = () => {
   return (
     <MusicCardContainer>
       <TitleWrapper>

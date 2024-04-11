@@ -5,7 +5,7 @@ import {
   DefaultLabelWrapper,
   TitleLabelWrapper,
 } from "./style";
-import { MusicCard } from "@/entities/music";
+import { MusicVerticalCard } from "@/entities/music";
 
 export const BaseMusicList = () => {
   return (
@@ -21,9 +21,9 @@ export const BaseMusicList = () => {
           <Title2>조회수</Title2>
         </DefaultLabelWrapper>
       </BaseMusicListHeader>
-      <MusicCard />
-      <MusicCard />
-      <MusicCard />
+      <MusicVerticalCard />
+      <MusicVerticalCard />
+      <MusicVerticalCard />
     </BaseMusicListContainer>
   );
 };
