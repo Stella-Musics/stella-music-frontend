@@ -1,12 +1,12 @@
 import { Headline1, Title1 } from "@/shared/ui/typo";
 import {
-  MusicCell,
   HorizontalMusicListContainer,
   MusicScrollArea,
   MusicListHeaderContainer,
   MusicListSectionContainer,
 } from "./style";
 import { useTheme } from "styled-components";
+import { MusicHorizontalCard } from "@/entities/music";
 
 export interface Props {
   title: string;
@@ -32,22 +32,16 @@ export const HorizontalMusicList = ({ title, onMoreClick }: Props) => {
       </MusicListHeaderContainer>
       <HorizontalMusicListContainer direction="horizontal">
         <MusicScrollArea>
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
-          <MusicCell />
+          <MusicHorizontalCard />
+          <MusicHorizontalCard />
+          <MusicHorizontalCard />
+          <MusicHorizontalCard />
+          <MusicHorizontalCard />
+          <MusicHorizontalCard />
+          <MusicHorizontalCard />
+          <MusicHorizontalCard />
+          <MusicHorizontalCard />
+          <MusicHorizontalCard />
         </MusicScrollArea>
       </HorizontalMusicListContainer>
     </MusicListSectionContainer>

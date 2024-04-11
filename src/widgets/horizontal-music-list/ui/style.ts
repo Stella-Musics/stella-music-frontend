@@ -30,13 +30,6 @@ export const HorizontalMusicListContainer = styled(ScrollArea)`
 
 export const MusicScrollArea = styled.div`
   display: flex;
-  gap: 16px;
+  gap: 32px;
   padding: 0 60px;
-`;
-
-export const MusicCell = styled.div`
-  width: 240px;
-  height: 240px;
-  border-radius: 24px;
-  background-color: ${({ theme }) => theme.color.cardBackground};
 `;
