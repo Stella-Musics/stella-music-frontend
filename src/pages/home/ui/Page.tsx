@@ -5,11 +5,8 @@ import { HomePageContainer } from "./style";
 export const HomePage = () => {
   return (
     <HomePageContainer>
-      <HomeBanner></HomeBanner>
-      <HorizontalMusicList
-        title="최신"
-        onMoreClick={() => {}}
-      ></HorizontalMusicList>
+      <HomeBanner />
+      <HorizontalMusicList title="최신" onMoreClick={() => {}} />
     </HomePageContainer>
   );
 };
