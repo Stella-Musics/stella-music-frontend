@@ -24,6 +24,13 @@ export const BaseMusicList = () => {
       <MusicVerticalCard />
       <MusicVerticalCard />
       <MusicVerticalCard />
+      <MusicVerticalCard />
+      <MusicVerticalCard />
+      <MusicVerticalCard />
+      <MusicVerticalCard />
+      <MusicVerticalCard />
+      <MusicVerticalCard />
+      <MusicVerticalCard />
     </BaseMusicListContainer>
   );
 };

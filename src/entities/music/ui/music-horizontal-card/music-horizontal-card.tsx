@@ -1,4 +1,4 @@
-import { Headline2, Headline3 } from "@/shared/ui/typo";
+import { SubTitle1, Title3 } from "@/shared/ui/typo";
 import {
   MusicHorizontalCardContainer,
   MusicTitleContainer,
@@ -13,10 +13,10 @@ export const MusicHorizontalCard = () => {
     <MusicHorizontalCardContainer>
       <ThumbnailImageCard src="https://avatars.githubusercontent.com/u/74440939?v=4" />
       <MusicTitleContainer>
-        <Headline2>Milky Way</Headline2>
-        <Headline3 color={theme.color.onBackgroundVariant}>
+        <Title3>Milky Way</Title3>
+        <SubTitle1 color={theme.color.onBackgroundVariant}>
           스텔라이브
-        </Headline3>
+        </SubTitle1>
       </MusicTitleContainer>
     </MusicHorizontalCardContainer>
   );

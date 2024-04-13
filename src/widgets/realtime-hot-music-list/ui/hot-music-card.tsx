@@ -1,7 +1,7 @@
 import { RankText, RankType } from "@/widgets/rank-text";
 import { HotMusicCardContainer } from "./style";
 import { useTheme } from "styled-components";
-import { SubTitle1, Title1 } from "@/shared/ui/typo";
+import { SubTitle1, Title3 } from "@/shared/ui/typo";
 
 export interface Props {
   rankType: RankType;
@@ -23,15 +23,15 @@ export const HotMusicCard = ({
       <RankText rankType={rankType} value={`${rankNumber}`} />
       <div
         style={{
-          width: "84px",
-          height: "84px",
-          borderRadius: "16px",
+          width: "64px",
+          height: "64px",
+          borderRadius: "8px",
           backgroundColor: `${theme.color.cardBackground}`,
-          minWidth: "84px",
+          minWidth: "64px",
         }}
       />
       <div>
-        <Title1
+        <Title3
           style={{
             overflow: "hidden",
             textOverflow: "ellipsis",
@@ -41,7 +41,7 @@ export const HotMusicCard = ({
           }}
         >
           {title}
-        </Title1>
+        </Title3>
         <SubTitle1
           color={theme.color.onBackgroundVariant}
           style={{

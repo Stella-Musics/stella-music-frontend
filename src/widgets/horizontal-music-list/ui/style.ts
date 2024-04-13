@@ -19,7 +19,6 @@ export const HorizontalMusicListContainer = styled(ScrollArea)`
   display: flex;
   flex-wrap: nowrap;
   overflow-x: scroll;
-  flex-grow: 1;
   scrollbar-width: none;
   -ms-overflow-style: none;
 
@@ -30,6 +29,6 @@ export const HorizontalMusicListContainer = styled(ScrollArea)`
 
 export const MusicScrollArea = styled.div`
   display: flex;
-  gap: 32px;
+  gap: 16px;
   padding: 0 60px;
 `;

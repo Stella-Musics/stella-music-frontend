@@ -1,4 +1,4 @@
-import { Headline1, Title1 } from "@/shared/ui/typo";
+import { Headline3, SubTitle1 } from "@/shared/ui/typo";
 import {
   HorizontalMusicListContainer,
   MusicScrollArea,
@@ -19,8 +19,8 @@ export const HorizontalMusicList = ({ title, onMoreClick }: Props) => {
   return (
     <MusicListSectionContainer>
       <MusicListHeaderContainer>
-        <Headline1>{title}</Headline1>
-        <Title1
+        <Headline3>{title}</Headline3>
+        <SubTitle1
           color={theme.color.onBackgroundVariant}
           onClick={onMoreClick}
           style={{
@@ -28,7 +28,7 @@ export const HorizontalMusicList = ({ title, onMoreClick }: Props) => {
           }}
         >
           더보기
-        </Title1>
+        </SubTitle1>
       </MusicListHeaderContainer>
       <HorizontalMusicListContainer direction="horizontal">
         <MusicScrollArea>

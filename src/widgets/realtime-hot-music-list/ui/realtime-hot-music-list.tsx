@@ -1,11 +1,11 @@
-import { Headline2 } from "@/shared/ui/typo";
+import { Headline3 } from "@/shared/ui/typo";
 import { HotMusicListConainer, RealtimeHotMusicListContainer } from "./style";
 import { HotMusicCard } from "./hot-music-card";
 
 export const RealtimeHotMusicList = () => {
   return (
     <RealtimeHotMusicListContainer>
-      <Headline2>실시간</Headline2>
+      <Headline3>실시간</Headline3>
       <HotMusicListConainer>
         <HotMusicCard
           rankType="up"

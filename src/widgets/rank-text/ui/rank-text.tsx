@@ -1,4 +1,4 @@
-import { Headline2, Title1 } from "@/shared/ui/typo";
+import { Title2, Title3 } from "@/shared/ui/typo";
 import {
   DownTriangle,
   RankChangesContainer,
@@ -18,16 +18,16 @@ export const RankText = ({ rankType, value }: Props) => {
 
   return (
     <RankTextContainer>
-      <Headline2>1</Headline2>
+      <Title2>1</Title2>
       <RankChangesContainer>
         {rankType === "up" ? <UpTriangle /> : <DownTriangle />}
-        <Title1
+        <Title3
           color={
             rankType === "up" ? theme.color.point.red : theme.color.point.blue
           }
         >
           {value}
-        </Title1>
+        </Title3>
       </RankChangesContainer>
     </RankTextContainer>
   );

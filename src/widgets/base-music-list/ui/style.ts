@@ -8,7 +8,6 @@ export const BaseMusicListHeader = styled.div`
   justify-content: space-around;
   padding: 24px 40px;
   border-radius: 16px 16px 0 0;
-  margin-top: 100px;
   background-color: ${({ theme }) => theme.color.onBackground};
 `;
 
