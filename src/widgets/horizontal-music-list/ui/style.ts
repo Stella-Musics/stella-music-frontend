@@ -10,7 +10,7 @@ export const MusicListSectionContainer = styled.div`
 export const MusicListHeaderContainer = styled.div`
   display: flex;
   flex-direction: row;
-  padding: 0 60px;
+  padding: 0 5%;
   justify-content: space-between;
   align-items: baseline;
 `;
@@ -30,5 +30,5 @@ export const HorizontalMusicListContainer = styled(ScrollArea)`
 export const MusicScrollArea = styled.div`
   display: flex;
   gap: 16px;
-  padding: 0 60px;
+  padding: 0 5%;
 `;

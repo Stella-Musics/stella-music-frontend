@@ -7,6 +7,6 @@ export const MusicListContainer = styled(ScrollArea)`
   width: 100%;
   background-color: ${({ theme }) => theme.color.background};
   overflow: scroll;
-  padding: 60px 60px 60px 60px;
+  padding: 5%;
   gap: 40px;
 `;

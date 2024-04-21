@@ -16,14 +16,23 @@ export const NavBarHeader = styled.header`
 
 export const SideBarContainer = styled.main`
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   height: 100%;
+
+  ${({ theme }) => theme.media.small} {
+    flex-direction: row;
+  }
 `;
 
 export const SideBarAside = styled.aside`
-  width: 112px;
-  height: 100%;
+  width: 100%;
+  height: 100px;
   border-right-width: 1px;
   border-right-color: ${({ theme }) => theme.color.onBackground};
   border-right-style: solid;
+
+  ${({ theme }) => theme.media.small} {
+    width: 112px;
+    height: 100%;
+  }
 `;
