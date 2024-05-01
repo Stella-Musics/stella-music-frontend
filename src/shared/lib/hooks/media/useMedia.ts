@@ -6,7 +6,8 @@ export type MediaType =
   | "small"
   | "medium"
   | "large"
-  | "extraLarge";
+  | "extraLarge"
+  | number;
 
 export interface Props {
   type: MediaType;
@@ -18,13 +19,15 @@ export const useMedia = ({ type }: Props) => {
       case "extraSmall":
         return 0;
       case "small":
-        return 375;
+        return 430;
       case "medium":
         return 754;
       case "large":
         return 1200;
       case "extraLarge":
         return 1536;
+      default:
+        return type;
     }
   };
 

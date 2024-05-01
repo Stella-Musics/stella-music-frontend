@@ -6,5 +6,6 @@ export const HomePageContainer = styled(ScrollArea)`
   flex-direction: column;
   gap: 32px;
   width: 100%;
+  height: 100%;
   background-color: ${({ theme }) => theme.color.background};
 `;

@@ -1,7 +1,9 @@
-export { default as StellaMusicLogo } from "./stella-music-logo";
-export { default as HomeIcon } from "./home";
-export { default as HomeFillIcon } from "./home-fill";
-export { default as MusicIcon } from "./music";
-export { default as MusicFillIcon } from "./music-fill";
-export { default as FolderIcon } from "./folder";
-export { default as FolderFillIcon } from "./folder-fill";
+export * from "./folder";
+export * from "./folder-fill";
+export * from "./home";
+export * from "./home-fill";
+export * from "./music";
+export * from "./music-fill";
+export * from "./play-fill";
+export * from "./stella-music-logo";
+export * from "./arrow-triangle-down";
