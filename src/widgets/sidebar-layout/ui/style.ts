@@ -23,7 +23,7 @@ export const SideBarMenuContainer = styled.div`
   }
 `;
 
-export const SideBarMenuWrapper = styled.div<{ isSelected?: boolean }>`
+export const SideBarMenuItem = styled.div<{ isSelected?: boolean }>`
   display: flex;
   flex-direction: column;
   width: 56px;
