@@ -1,4 +1,4 @@
-const MusicIcon = () => (
+export const MusicIcon = () => (
   <svg
     width="33"
     height="32"
@@ -48,5 +48,3 @@ const MusicIcon = () => (
     </defs>
   </svg>
 );
-
-export default MusicIcon;

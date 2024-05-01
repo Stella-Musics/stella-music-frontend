@@ -1,4 +1,4 @@
-const FolderFillIcon = () => (
+export const FolderFillIcon = () => (
   <svg
     width="33"
     height="32"
@@ -14,5 +14,3 @@ const FolderFillIcon = () => (
     />
   </svg>
 );
-
-export default FolderFillIcon;
