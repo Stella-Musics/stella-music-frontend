@@ -1,4 +1,4 @@
-const HomeFillIcon = () => (
+export const HomeFillIcon = () => (
   <svg
     width="33"
     height="32"
@@ -24,5 +24,3 @@ const HomeFillIcon = () => (
     </defs>
   </svg>
 );
-
-export default HomeFillIcon;

@@ -1,4 +1,4 @@
-const HomeIcon = () => (
+export const HomeIcon = () => (
   <svg
     width="33"
     height="32"
@@ -27,5 +27,3 @@ const HomeIcon = () => (
     </defs>
   </svg>
 );
-
-export default HomeIcon;

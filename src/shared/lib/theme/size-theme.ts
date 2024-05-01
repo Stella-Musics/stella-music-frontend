@@ -1,14 +1,20 @@
 export const size = {
   /** 0 */
   extraSmall: 0,
-  /** 375 */
-  small: 375,
+  /** 420 */
+  small: 430,
   /** 754 */
   medium: 754,
   /** 1200 */
   large: 1200,
   /** 1536 */
   extraLarge: 1536,
+  /** navigation bar height */
+  navbarHeight: 72,
+  /** tab bar height */
+  tabbarHeight: 90,
+  /** sidebar width */
+  sidebarWidth: 112
 };
 
 export type SizeType = typeof size;

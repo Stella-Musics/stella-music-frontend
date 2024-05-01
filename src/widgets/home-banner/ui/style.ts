@@ -4,7 +4,7 @@ export const TopBannerContainer = styled.div`
   display: flex;
   flex-direction: row;
   gap: 30px;
-  margin: 60px 60px 0 60px;
+  margin: 5% 5% 0 5%;
 `;
 
 export const Banner = styled.div`

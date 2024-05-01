@@ -3,7 +3,7 @@ import { size } from "./size-theme";
 export const media = {
   /** 0+ */
   extraSmall: `@media (min-width: ${size.extraSmall}px)`,
-  /** 375+ */
+  /** 430+ */
   small: `@media (min-width: ${size.small}px)`,
   /** 754+ */
   medium: `@media (min-width: ${size.medium}px)`,
