@@ -11,8 +11,9 @@ import {
   SideBar,
   SideBarMenuContainer,
   SideBarMenuWrapper,
+  TabbarIconWrapper,
 } from "./style";
-import { Title3 } from "@/shared/ui/typo";
+import { Body1 } from "@/shared/ui/typo";
 import { useAppDispatch, useAppSelector } from "@/shared/model";
 import { tabDidSelect, selectedSidebarTabSelector } from "@/entities/sidebar";
 import { useNavigate } from "react-router-dom";
@@ -32,8 +33,10 @@ export const SideBarLayout = () => {
             navigate("/");
           }}
         >
-          {selectedTab === "home" ? <HomeFillIcon /> : <HomeIcon />}
-          <Title3>홈</Title3>
+          <TabbarIconWrapper>
+            {selectedTab === "home" ? <HomeFillIcon /> : <HomeIcon />}
+          </TabbarIconWrapper>
+          <Body1>홈</Body1>
         </SideBarMenuWrapper>
         <SideBarMenuWrapper
           isSelected={selectedTab === "music"}
@@ -42,8 +45,10 @@ export const SideBarLayout = () => {
             navigate("/music");
           }}
         >
-          {selectedTab === "music" ? <MusicFillIcon /> : <MusicIcon />}
-          <Title3>음악</Title3>
+          <TabbarIconWrapper>
+            {selectedTab === "music" ? <MusicFillIcon /> : <MusicIcon />}
+          </TabbarIconWrapper>
+          <Body1>음악</Body1>
         </SideBarMenuWrapper>
         <SideBarMenuWrapper
           isSelected={selectedTab === "artist"}
@@ -53,7 +58,7 @@ export const SideBarLayout = () => {
           }}
         >
           <TemporaryArtistCircle />
-          <Title3>아티스트</Title3>
+          <Body1>아티스트</Body1>
         </SideBarMenuWrapper>
         <SideBarMenuWrapper
           isSelected={selectedTab === "storage"}
@@ -62,8 +67,10 @@ export const SideBarLayout = () => {
             navigate("/storage");
           }}
         >
-          {selectedTab === "storage" ? <FolderFillIcon /> : <FolderIcon />}
-          <Title3>보관함</Title3>
+          <TabbarIconWrapper>
+            {selectedTab === "storage" ? <FolderFillIcon /> : <FolderIcon />}
+          </TabbarIconWrapper>
+          <Body1>보관함</Body1>
         </SideBarMenuWrapper>
       </SideBarMenuContainer>
     </SideBar>

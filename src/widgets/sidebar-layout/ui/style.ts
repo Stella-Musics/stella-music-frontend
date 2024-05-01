@@ -15,7 +15,7 @@ export const SideBarMenuContainer = styled.div`
   align-items: center;
   width: 100%;
   margin: 16px;
-  gap: 24px;
+  gap: 16px;
 
   ${({ theme }) => theme.media.small} {
     flex-direction: column;
@@ -26,8 +26,8 @@ export const SideBarMenuContainer = styled.div`
 export const SideBarMenuWrapper = styled.div<{ isSelected?: boolean }>`
   display: flex;
   flex-direction: column;
-  width: 72px;
-  height: 72px;
+  width: 56px;
+  height: 56px;
   justify-content: space-evenly;
   align-items: center;
   cursor: pointer;
@@ -47,4 +47,19 @@ export const TemporaryArtistCircle = styled.div`
   height: 32px;
   border-radius: 16px;
   background-color: ${({ theme }) => theme.color.onBackgroundVariant};
+
+  @media (max-width: ${({ theme }) => theme.size.small}) {
+    width: 16px;
+    height: 16px;
+  }
+`;
+
+export const TabbarIconWrapper = styled.div`
+  width: 33px;
+  height: 32px;
+
+  @media (max-width: ${({ theme }) => theme.size.small}) {
+    width: 16px;
+    height: 16px;
+  }
 `;

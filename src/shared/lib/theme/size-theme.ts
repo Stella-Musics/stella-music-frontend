@@ -1,7 +1,7 @@
 export const size = {
   /** 0 */
   extraSmall: 0,
-  /** 420 */
+  /** 430 */
   small: 430,
   /** 754 */
   medium: 754,
@@ -12,9 +12,9 @@ export const size = {
   /** navigation bar height */
   navbarHeight: 72,
   /** tab bar height */
-  tabbarHeight: 90,
+  tabbarHeight: 56,
   /** sidebar width */
-  sidebarWidth: 112
+  sidebarWidth: 112,
 };
 
 export type SizeType = typeof size;
