@@ -9,7 +9,12 @@ export const size = {
   large: 1200,
   /** 1536 */
   extraLarge: 1536,
-  /**  */
+  /** navigation bar height */
+  navbarHeight: 72,
+  /** tab bar height */
+  tabbarHeight: 90,
+  /** sidebar width */
+  sidebarWidth: 112
 };
 
 export type SizeType = typeof size;

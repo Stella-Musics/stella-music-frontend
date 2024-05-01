@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const MusicListContainer = styled(ScrollArea)`
   display: flex;
   flex-direction: column;
-  width: 100%;
+  flex-grow: 1;
   background-color: ${({ theme }) => theme.color.background};
   overflow: scroll;
   padding: 5%;
