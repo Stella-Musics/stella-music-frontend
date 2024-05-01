@@ -15,9 +15,11 @@ export const SideBarMenuContainer = styled.div`
   align-items: center;
   width: 100%;
   margin: 16px;
+  gap: 24px;
 
   ${({ theme }) => theme.media.small} {
     flex-direction: column;
+    justify-content: flex-start;
   }
 `;
 
@@ -30,7 +32,6 @@ export const SideBarMenuWrapper = styled.div<{ isSelected?: boolean }>`
   align-items: center;
   cursor: pointer;
   z-index: 1;
-  margin-bottom: 24px;
   border-radius: 16px;
   background-color: ${({ isSelected = false, theme }) =>
     isSelected ? theme.color.cardBackground : "transparent"};
