@@ -1,0 +1,1 @@
+export { HorizontalArtistList } from './horizontal-artist-list'

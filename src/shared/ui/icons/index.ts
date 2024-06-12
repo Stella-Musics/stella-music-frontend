@@ -7,3 +7,5 @@ export * from "./music-fill";
 export * from "./play-fill";
 export * from "./stella-music-logo";
 export * from "./arrow-triangle-down";
+export * from "./youtube-icon";
+export * from "./chzzk-icon";
