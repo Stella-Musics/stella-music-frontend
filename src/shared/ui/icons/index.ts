@@ -9,3 +9,5 @@ export * from "./stella-music-logo";
 export * from "./arrow-triangle-down";
 export * from "./youtube-icon";
 export * from "./chzzk-icon";
+export * from "./google-logo";
+export * from "./apple-logo";
